@@ -1,0 +1,86 @@
+body{
+ margin: 0;
+}
+#logo{
+ height: 134px;
+    display: block;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+#baiduyixia{
+    width: 500px;
+    height: 30px;
+    border: solid grey 1px;
+}
+#baiduyixia:focus{
+    border: solid dodgerblue 1px;
+}
+#twod{
+    position: absolute;
+    top:76%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 11px;
+    font-weight: bold;
+}
+#button{
+    outline: 0;
+    margin: 0;
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+}
+#twod_code{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#search{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#laji{
+    background-color: dodgerblue;
+    color: white;
+    display: inline-block;
+
+}
+#laji:hover{
+    color: red;
+}
+#bottom1{
+    font-size: 12px;
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#bottom2{
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.rs{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+
+}
+#corner{
+    text-align: right;
+}
+.rs:hover{
+    color: mediumblue;
+}
+
